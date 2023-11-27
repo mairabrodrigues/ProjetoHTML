@@ -1,0 +1,86 @@
+
+
+.search-container {
+    margin-left: auto;
+    
+}
+
+#search-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.salut{
+    color: #0d6efd;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+.profile{
+    color: #0d6efd;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil {
+    position: relative;
+    
+}
+
+#perfil-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.logout{
+    position: relative;
+}
+#logout-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+
+#logout-btn::before {
+    content: "Sair";
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+#rgt-btn:hover::before {
+    opacity: 1;
+}
+
+.alterar{
+    position: relative;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; 
+
+}
+
+#alt-btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px;
+    border-radius: 13%;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}

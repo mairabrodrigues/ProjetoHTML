@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+/* ======================
+Modal
+=========================*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.65);
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal > section {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+.modal .btCloseModal {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 24px;
+    background-color: white;
+    border: 2px solid #666;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px #000;
+    cursor: pointer;
+    user-select: none;
+}
+.modal .btCloseModal:hover {
+    background-color: #666;
+    color: white;
+}
+.modal .btCloseModal:active {
+    box-shadow: none;
+    top: -9px;
+    right: -15px;
+}

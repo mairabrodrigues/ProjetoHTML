@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="projeto.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>PRIMAVERA Business Software Solutions</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="https://pt.primaverabss.com/pt/">
+                <img src="imagens/logotipo.png" alt="logotipo primavera"></a>
+        </h1>
+<div class="search-container">
+<button id="search-btn">
+<i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+
+<div class="login">
+    <button id="login-btn">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+    </button>
+</div>
+<div class="overlay" id="overlay">
+<div class="modal" id="modal">
+    <section>
+        <div class="btCloseModal" onclick="fecharModal()">X</div>
+        <p><b>Controlo de acessos</p></b>
+        <p>Os dois campos são de preenchimento obrigatório.</p>
+        <form id="loginForm">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required>
+            <br>
+            <div id="errorMessage" class="error-message"></div>
+            <button class="button" type="button" onclick="validarCampos()">Validar</button>
+        </form>
+    </section>
+</div></div></div>
+<div class="registo">
+    <button id="rgt-btn">
+        <i class="fa-solid fa-user-plus"></i>
+    </button>
+</div>
+</header>
+        <nav>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">CONTABILISTAS</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/parceiros/">SETOR PRIVADO</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/parceiros/">SETOR PÚBLICO</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">FORMAÇÃO</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/parceiros/">PARCEIROS</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/jobs/">CARREIRAS</a></li>
+            </ul>
+        </nav>
+        <main>
+    <section banner>
+    <div class="banner">
+        
+        <img src="imagens/fundoBanner.jpg" alt="fundoBanner"></a>
+        
+        <div class="txtBanner">
+            <h1>TECNOLOGIA PARA VENCER</h1>
+            <h2>Conheça os casos de sucesso PRIMAVERA</h2>
+            <h3>Na linha da frente na digitalização de empresas</h3>
+            <div class="elipse">
+            <a href="https://pt.primaverabss.com/pt/pagina/tecnologia-para-vencer/">SAIBA MAIS ></a>
+           
+        </div></div></div></section></main>
+    <br>
+    <h2>Missão</h2>
+    <div class="missao">
+        <figure>
+            <img src="imagens/missao.jpg" alt="missao">
+        </figure>
+    <div class="missao-txt">
+        <p class= "p1">Simplificar a vida nas organizações, aumentando a criação de valor, é a nossa grande missão.</p>
+        <p class=" p2">Desafiar o desconhecido. Explorar possibilidades. Transpor barreiras. Inovar. São estas as motivações que desde 1993 nos conduzem na busca de soluções de gestão inovadoras que simplificam a vida nas organizações.</p>  
+        <p class=" p3 ">A paixão pela inovação na gestão empresarial está no ADN da PRIMAVERA. Um entusiasmo contagiante que colocamos ao serviço das organizações, disponibilizando-lhes um leque crescente de soluções de gestão que agilizam as operações e aumentam a rentabilidade do negócio.</p>
+        <p class=" p4">Acreditamos na força das ideias. Auxiliamos a sua concretização. Impulsionamos os resultados. Defendemos que com a tecnologia certa, crescer é o caminho. Do mais pequeno micronegócio a uma grande multinacional, disponibilizamos soluções ajustadas, ágeis e funcionais que dão mais força ao negócio.</p>
+        <p class="p5">
+            <a href="https://pt.primaverabss.com/fotos/editor2/brochurainstitucional_2017_web2.pdf" target="_blank">
+                » Conheça a nossa brochura institucional
+            </a>
+        </p>    
+    </div></div>
+    </h2>
+    <br>
+    <h3>
+        Equipa
+    </h3>
+    <div class="equipa">
+        <div class="equipa-membro">
+            <img src="imagens/foto1.png" alt="daniela">
+            <div class="equipa-info">
+                <div class="nome">Daniela Alves</div>
+                <div class="cargo">Web Developer</div>
+            </div>
+        </div>
+    
+        <div class="equipa-membro">
+            <img src="imagens/foto2.png" alt="manuela">
+            <div class="equipa-info">
+                <div class="nome">Manuela Ribeiro</div>
+                <div class="cargo">Front-end Developer</div>
+            </div>
+        </div>
+    
+        <div class="equipa-membro">
+            <img src="imagens/foto3.png" alt="bruna">
+            <div class="equipa-info">
+                <div class="nome">Bruna Silva</div>
+                <div class="cargo">Designer</div>
+            </div>
+        </div>
+    </div>
+                
+    <br>
+    <h4>
+        Oferta formativa
+    </h4>
+    
+    <div id="slider-container">
+        <div id="slide1" class="slide">
+            <img src="imagens/slider1.jpg" alt="img1">
+            <div class="slide-content">
+          <div class="title" style="color: #f27d29;">PRIMAVERA Academy</div>
+          <div class="subtitle" style="color:  #153c85;">Juntos seremos mais fortes!</div>
+          <div class="text" style="color:  #153c85;">Aposte em novas competências</div>
+        </div></div>
+
+        <div id="slide2" class="slide">
+            <img src="imagens/slider2.jpg" alt="img2">
+            <div class="slide-content">
+          <div class="title" style="color: #153c85;">Online Seminar</div>
+          <div class="subtitle">Legislação Laboral de A a Z</div>
+          <div class="text">Atualize os seus conhecimentos</div>
+        </div></div>
+        <div id="slide3" class="slide">
+            <img src="imagens/slider3.jpg" alt="img3">
+            <div class="slide-content">
+          <div class="title" style="color: #ebc711;">RE_Start</div>
+          <div class="subtitle">CODE Learning Academy</div>
+          <div class="text">Juntos desenvolvemos o teu percurso de sucesso como Developer</div>
+        </div></div>
+        <div id="slide4" class="slide">
+            <img src="imagens/slider4.jpg" alt="img4">
+            <div class="slide-content">
+          <div class="title" style="color: #153c85;">Marketing Digital</div>
+          <div class="subtitle">Aproveite Desconto 20%</div>
+          <div class="text">Virtual Classroom (Online)</div>
+        </div></div>
+        <div id="slide5" class="slide">
+            <img src="imagens/slider5.jpg" alt="img5">
+            <div class="slide-content">
+          <div class="title" style="color: #ff701e;">Programa SCORE</div>
+          <div class="subtitle">Online | Virtual Classroom</div>
+          <div class="text">Certifique-se como Profissional PRIMAVERA</div>
+        </div></div>
+      </div>
+
+</main>
+    <br>
+    
+    <footer>
+        <div class="footer-column">
+            <h4>PRIMAVERA</h4>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/sobre-a-cegid/">Sobre a PRIMAVERA</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/primavera/#responsabilidade_social">Responsabilidade Social</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/jobs/">Recrutamento</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/portfolio/administracao-publica/">Os nossos Clientes</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/portfolio/administracao-publica/">Referral Members</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/consultoria/Primavera-Consulting/">Consultoria</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/suporte/suporte/">Suporte</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/blog/">Blog</a></li>
+                <li><a href="https://developers.ila.cegid.com/">Developers Network</a></li>
+                <li><a href="https://helpcenter.ila.cegid.com/">HelpCenter</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/marketplace/">MarketPlace</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h4>EDUCATION</h4>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/primavera-education/#Teaching-with-Software">Teaching with Software</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">Education Talks</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">Education Labs</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">Study Visits</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/pagina/academy-home/">Formação de Docentes</a></li>                              
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h4>NOTICIAS E EVENTOS</h4>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/comunicados-de-imprensa/">Press Releases</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/comunicados-de-imprensa/">Eventos e Webinars</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/blog/">Blog</a></li>
+                <li><a href="https://gestor-preferencias.primaverabss.com/pt/">Newsletter</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>CONTACTOS</h4>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/contactos/#localizacao">Como chegar</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/contactos/?id_produto=1#contPri">Contactar agora</a></li>
+               
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>SITE</h4>
+            <ul>
+                <li><a href="https://pt.primaverabss.com/pt/site/politica-de-privacidade/">Política de Privacidade</a></li>
+                <li><a href="https://pt.primaverabss.com/pt/site/termos-de-utilizacao/">Termos de utilização</a></li>
+               <li><a href="https://pt.primaverabss.com/pt/mapa-site/">Mapa do Site</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="scroll-to-top">
+        <img src="imagens/setacima.png" alt="Seta para cima">
+      </div>
+      <div id="overlay"></div>
+
+      <div id="cookie-message">
+      <div id="cookie-message-text">
+        Este website utiliza cookies para melhorar a sua experiência de navegação. Para continuar a navegar, deve ler e aceitar os <a href="https://pt.primaverabss.com/pt/site/politica-de-cookies/" id="cookie-link">Termos e Condições</a>.
+      </div>
+      <button id="accept-button">Li e Aceito ></button>
+    </div>
+  
+    <script src="projeto.js"></script>
+</body>
+</html>
